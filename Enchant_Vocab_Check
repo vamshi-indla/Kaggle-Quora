@@ -1,0 +1,21 @@
+# Objective of below code is to identify non-vocab words, punctuations.
+# This is to manually map them with meaning words
+
+
+
+import enchant
+d = enchant.Dict("en_US")
+def check_dict(s):
+    #words = str(s).lower()
+    words = word_tokenize(str(s))
+    words = [w for w in words if not w in stop_words]
+    words = [w for w in words if not d.check(w)]
+    if len(words) > 0:
+        return " ".join(words)
+    else:
+        return ""
+  
+  
+## Example
+##check_dict("When to use & and when to use and")
+##Out[41]: '&'
