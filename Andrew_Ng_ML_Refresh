@@ -27,3 +27,8 @@ Amazon product recommendation, Google ads)
 
 ### SVM (Support Vector Machine) is good at prediction, when it comes to dealing with lots and lots of features.
 
+# Class 4
+## Unsupervised Learning: We let the computer let group based on data
+Examples: Market Segmentation, News grouping on Google, Genetics of similar people, Astronomical Data analysis
+
+### Octave is good for rapid prototyping and then the models can be created in C++/Java environment.
