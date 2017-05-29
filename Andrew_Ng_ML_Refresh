@@ -1,0 +1,20 @@
+Andrew Ng, Founder of Coursera conducted a Machine Learning course. Below are the class notes taken after watching videos.
+
+### Machine Learning Definition:
+  Let computer learn perform a Task T for a peformance metric P and obtain an experience E, based on the available data.
+  When a new data point arises, it performances the Task T, based on its historical Experience
+  
+  
+### Types of Machine Learning
+# Supervised Learning
+  Ex: Classifying email as spam or not.
+      Classifying handwritten digits
+      Classifying Fraud/Not Fraud Txns and so on
+      
+      
+# Unsupervised Learning
+  Ex: We let computer cluster the data points on some similarity. Market Segmentation, Nearest Neighbourhood house prices
+  
+# Other types of Machine learning: Reinforcement learning (chess/checker), recommendation learning(Netflix video recommendation, 
+Amazon product recommendation, Google ads)
+ 
