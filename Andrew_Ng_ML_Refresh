@@ -18,3 +18,12 @@ Andrew Ng, Founder of Coursera conducted a Machine Learning course. Below are th
 # Other types of Machine learning: Reinforcement learning (chess/checker), recommendation learning(Netflix video recommendation, 
 Amazon product recommendation, Google ads)
  
+# Class 3
+## Supervised Learning: Examples are provided with question and answer and we let the computer learn.
+### Regression Model: Goal is to predict the continous Dependent Variable
+  Ex: Predict housing prices based on location, house features etc
+### Classification Model: Goal is to predict the Discrete values
+  Ex: Predict the lump as benign or malignant
+
+### SVM (Support Vector Machine) is good at prediction, when it comes to dealing with lots and lots of features.
+
