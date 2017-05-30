@@ -32,3 +32,44 @@ Amazon product recommendation, Google ads)
 Examples: Market Segmentation, News grouping on Google, Genetics of similar people, Astronomical Data analysis
 
 ### Octave is good for rapid prototyping and then the models can be created in C++/Java environment.
+
+# Class 5
+## Linear Regression.
+  Regression is predicting the continous variable. Hypothesis is a function that modifies independent variables and 
+  produces dependent variables.
+  
+  y = h(x) = q0 + q1*x
+  
+  Linear regression with a single variable is also called univariate linear regression.
+  It is linear in terms of Coefficients not in terms of independent variables.
+  
+  
+ # Class 6
+ Cost function: is the function that we are trying to minimize, by choosing the right values of parameters(q0, q1).
+ J(q0, q1) = 1/2m * Sum ( h(x) - y)^2
+ i.e RMSE is the cost function.
+ 
+ 
+# Class 7 
+Gradient Descent
+
+q0, q1 = Parameters
+Alpha = Learning rate
+J(q0, q1) = Cost Function
+Goal is to minimize Cost Function, by choosing the right parameters.
+
+==
+1. Based on the starting point (initialized values of parameters), we reach different local minima
+2. Alpha = Learning Rate
+3. Update all parameters at once
+qi := qi - alpha * partial derivative qi ( J(q0,q1))
+4. repeat this until, there is no improvement in Cost function for certain iterations
+
+# Class 8
+There is a alternate way to find out the parameters without recursively performing Gradient Descent.
+It is called Natural ?? using Matrices and vectors
+
+Matrices are represented with capital letters.
+Vectors are represented with small letters.
+
+
