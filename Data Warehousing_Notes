@@ -1,0 +1,27 @@
+Data Modeling:
+
+1. Its modeling the data for Business Data requirements
+2. Primarily creating ER diagram
+3. Conceptual Data Model (Business)
+  Data Flow between Entities
+  
+4. Logical  Data Model (Business)
+  Entities
+  Attributes
+  Keys
+  Relationships
+  
+5. Physical  Data Model (Developers/DBA)
+  Tables
+  Columns
+  Data Types
+  Constraints
+  SQL statements
+  Indexes
+  Tables 
+  Tablespaces
+  Views 
+  Joins
+  
+  
+  
