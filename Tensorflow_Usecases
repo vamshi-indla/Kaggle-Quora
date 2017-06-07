@@ -1,0 +1,10 @@
+Tensorflow for image classification.
+  Features need not be handpicked
+  TF can understand texture on images
+  Its a neural network with input layer, hidden layers and output layer
+  Refer codelabs for code of image classifier
+  Model is already trained on INCEPTION, 1.2 M images
+  Output produces probability of top 5 classes.
+  Ref: https://www.youtube.com/watch?v=cSKfRcEDGUs
+  
+  
